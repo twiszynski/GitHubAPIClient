@@ -21,18 +21,19 @@ GitHubAPI is a REST client application that interacts with the GitHub API to fet
 
 To use this application, you need to make a GET request to the `/repos/{username}` endpoint, where `{username}` is the GitHub username whose repositories you want to fetch.
 
-## Building
+## Downloading and Running the Project
 
-To build the application, navigate to the project directory and run the following command:
+### Cloning the Repository
 
-```bash
-mvn clean install
-```
+1. Clone the repository using the command `git clone <repository-url>`.
+2. Navigate to the project directory using the command `cd <project-name>`.
+3. Run the command `mvn clean install` to build the project.
+4. Start the application using the command `mvn spring-boot:run`.
 
-## Running
+### Downloading as a ZIP Archive
 
-To run the application, use the following command:
-
-```bash
-mvn spring-boot:run
-```
+1. Download the project as a ZIP archive.
+2. Extract the archive at your chosen location.
+3. Open a terminal and navigate to the project directory.
+4. Run the command `mvn clean install` to build the project.
+5. Start the application using the command `mvn spring-boot:run`.
